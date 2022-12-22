@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/seekerProfile"
+        android:icon="@drawable/user"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="ifRoom" />
+    <!--
+        <item
+            android:id="@+id/favorite"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Favourites"
+            app:showAsAction="ifRoom" />
+
+
+
+        <item
+            android:id="@+id/more"
+            android:title="View Profile"
+            android:icon="@drawable/user"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="Logout"
+            app:showAsAction="never" />-->
+
+</menu>

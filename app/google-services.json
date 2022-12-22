@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "984934873273",
+    "project_id": "jobhub-b2ec5",
+    "storage_bucket": "jobhub-b2ec5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984934873273:android:e4511bf44f2f387b17c368",
+        "android_client_info": {
+          "package_name": "com.example.jobhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984934873273-russqm8mfqeu16f1c8ihftk8qfhnj449.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jobhub",
+            "certificate_hash": "9aec737aa8cc6f913d26d95f29399d867c09a5ba"
+          }
+        },
+        {
+          "client_id": "984934873273-d93ms51mecqsbva705olnkqptjv2hf82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHvGvlaUWUBlZr6zlJnqXMdtFkpcqIUaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984934873273-d93ms51mecqsbva705olnkqptjv2hf82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
