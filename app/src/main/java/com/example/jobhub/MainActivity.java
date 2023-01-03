@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -12,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.jobhub.Activities.LoginActivity;
 import com.example.jobhub.Activities.OTP_VerificationActivity;
 import com.example.jobhub.Models.PassToVerification;
 import com.google.android.material.textfield.TextInputLayout;
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     private List<PassToVerification> records;
     private String recordNum;
     private int count;
+    private Button Loginbutton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +55,15 @@ public class MainActivity extends AppCompatActivity {
         edtEmail =findViewById(R.id.email_edit_text);
         edtPhone = findViewById(R.id.phone_edit_text);
         user_Group = findViewById(R.id.user_selection);
+
+        Loginbutton = findViewById(R.id.Loginbutton);
+        Loginbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(loginIntent);
+            }
+        });
 
     }//oncreate method closed
 

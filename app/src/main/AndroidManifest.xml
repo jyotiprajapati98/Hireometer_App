@@ -25,6 +25,7 @@
         <activity android:name=".Activities.HireSecondPageActivity"/>
         <activity android:name=".Dashboards.HireDashboardActivity"/>
         <activity android:name=".Dashboards.HireFragments.HireUserProfileActivity"/>
+        <activity android:name=".Activities.LoginActivity"/>
     </application>
 
 </manifest>

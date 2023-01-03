@@ -55,6 +55,8 @@ public class HireDashboardActivity extends AppCompatActivity {
         viewPager.setAdapter(hirePageAdapter);
         tabLayout = findViewById(R.id.hire_tab_layout);
         tabLayout.setupWithViewPager(viewPager);
+
+        //get extract the data
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
